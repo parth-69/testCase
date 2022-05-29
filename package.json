@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "ping www.google.com",
+    "preinstall": "python -V",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
