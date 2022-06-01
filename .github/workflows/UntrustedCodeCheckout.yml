@@ -16,7 +16,5 @@ jobs:
         with:
           node-version: 12.x
       - name: Install dependencies
-        env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
         run: npm install
         
